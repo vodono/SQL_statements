@@ -1,12 +1,12 @@
 -- Реализовать наборы стейтментов для PostgreSQL. 
 
 -- 1. Создать базу данных shop.
-CREATE DATABASE db_1;
+CREATE DATABASE shop;
 
 
 -- 2. Создать юзера shop и дать ему полный доступ к БД shop.
 CREATE USER shop WITH password 'shop';
-GRANT ALL ON DATABASE db_1 TO shop;
+GRANT ALL ON DATABASE shop TO shop;
 
 
 -- 3. Создать юзера viewer и дать ему доступ на чтение БД shop.
